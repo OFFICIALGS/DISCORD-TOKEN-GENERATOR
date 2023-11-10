@@ -1,7 +1,6 @@
 import random,string,httpx,time
 
 def solve(clientkey:str,service:str) -> dict:
-    #Took From Notlit Code
     if 'capsolver' in service:
         resp = httpx.post('https://api.capsolver.com/createTask',json={
     "clientKey": clientkey,
