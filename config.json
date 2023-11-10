@@ -1,0 +1,7 @@
+{
+    "key": "captcha key here",
+    "service": "captcha service", 
+    "invite": "invite code here",
+    "proxy": "http proxy here",
+    "threads": "10"
+}
